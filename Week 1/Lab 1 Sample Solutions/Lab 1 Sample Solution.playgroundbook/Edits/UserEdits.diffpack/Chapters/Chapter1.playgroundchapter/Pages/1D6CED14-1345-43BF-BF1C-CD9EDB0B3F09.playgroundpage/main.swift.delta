@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>let a = 3.0
+let b = 4.0
+
+// You can always convert from Int to Double by using Double()
+
+// Write your code here to define 4 functions as requested
+func add(n1: Double, n2: Double) -&gt; Double {
+    return n1 + n2
+}
+func subtract(n1: Double, n2: Double) -&gt; Double {
+    return n1 - n2
+}
+func multiply(n1: Double, n2: Double) -&gt; Double {
+    return n1 * n2
+}
+func divide(n1: Double, n2: Double) -&gt; Double {
+    return n1 / n2
+}
+
+//To make the function calls below work, please write 4 functions above
+print(add(n1: a, n2: b))
+print(subtract(n1: a, n2: b))
+print(multiply(n1: a, n2: b))
+print(divide(n1: a, n2: b))
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 611}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
