@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Hanoi – Amsterdam High School",
+        "state": "Hanoi",
+        "id": 1,
+        "isFeatured": true,
+        "isFavorite": true,
+        "category": "High school",
+        "coordinates": {
+            "longitude": 105.7981,
+            "latitude": 21.0068
+        },
+        "description": "Hanoi – Amsterdam High School is one of the four regional magnet schools in Hanoi, Vietnam. It is regarded as one of the most prestigious and highly ranked academically selective high schools in Vietnam, from Hanoi. In 1972, as the Vietnam War was in one of its most brutal periods, Hanoi was under heavy bombardment by the US Air Force. Dr. I. Samkalden, the mayor of Amsterdam, the Netherlands, started a campaign to mobilize his people to donate for the establishment of a high school in Hanoi to express their support to the citizens of Hanoi. The result of this campaign was the founding of Hanoi – Amsterdam High School. September 5, 1985, marked the official commencement of the first school year at Hanoi – Amsterdam High School.",
+        "imageName": "amsterdam",
+        "toDos" : [
+            {
+                "id": "00000000-0000-4000-8000-000000000000",
+                "name": "A",
+                "completed": false
+            },{
+                "id": "00000000-0000-4000-8000-000000000001",
+                "name": "B",
+                "completed": true
+            }
+        ]
+    },
+    {
+        "name": "Lê Hồng Phong High School",
+        "category": "High school",
+        "state": "Ho Chi Minh",
+        "id": 2,
+        "isFeatured": false,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude":  106.681667,
+            "latitude": 10.763889
+        },
+        "description": "Lê Hồng Phong High School is a highly selective high school in Hồ Chí Minh City, Vietnam. Established in 1927, the school is one of the oldest high schools still operating in Vietnam. Lê Hồng Phong High School for the Gifted was the third high school founded in Saigon by French colonizers, after the Collège Chasseloup-Laubat (now Le Quy Don High School) and Collège de Jeunes Filles Indigènes (now Nguyễn Thị Minh Khai High School). In 1925, Architect Ernest Hebrard was commissioned to design the school in Chợ Quán.",
+        "imageName": "lehongphong",
+        "toDos" : [
+            {
+                "id": "00000000-0000-4000-8000-000000000003",
+                "name": "A",
+                "completed": false
+            },{
+                "id": "00000000-0000-4000-8000-000000000004",
+                "name": "B",
+                "completed": true
+            }
+        ]
+    },
+    {
+        "name": "Chu Van An Highschool",
+        "category": "High school",
+        "state": "Hanoi",
+        "id": 3,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": 105.833445,
+            "latitude": 21.043251
+        },
+        "description": "Chu Van An High School, also known as Chu Van An National School or Pomelo School (trường Bưởi, before 1945) one of the three national high schools for the gifted in Vietnam along with Quoc Hoc High School in Huế and Le Hong Phong High School in Ho Chi Minh City. It is also one of the three magnet high schools in Hanoi, Vietnam, along with Hanoi-Amsterdam High School and Nguyen Hue High School. Established by the French authorities in 1908 as High School of the Protectorate (French: Lycée du Protectorat), Chu Van An is one of the oldest institutions for secondary education in South East Asia. Despite the initial intention to train native civil servants to serve the French colonial establishments, Vietnamese students at Bưởi school had many times struggled against colonial doctrine.",
+        "imageName": "chuvanan",
+        "toDos" : [
+            {
+                "id": "00000000-0000-4000-8000-000000000005",
+                "name": "A",
+                "completed": false
+            },{
+                "id": "00000000-0000-4000-8000-000000000006",
+                "name": "B",
+                "completed": true
+            }
+        ]
+    },
+    {
+        "name": "Tran Dai Nghia High School for the Gifted",
+        "category": "High school",
+        "state": "Ho Chi Minh",
+        "id": 4,
+        "isFeatured": false,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": 106.700868,
+            "latitude": 10.779609
+        },
+        "description": "Tran Dai Nghia High School for the Gifted is an academically selective public school for talented and gifted students from grade 6 to 12 in Ho Chi Minh City, Vietnam. Established in 2000, Tran Dai Nghia High School for the Gifted was the first partially state-funded, semi-boarding school specializing in various subjects, especially foreign languages in Ho Chi Minh city.",
+        "imageName": "twinlake",
+        "toDos" : [
+            {
+                "id": "00000000-0000-4000-8000-000000000007",
+                "name": "A",
+                "completed": false
+            },{
+                "id": "00000000-0000-4000-8000-000000000008",
+                "name": "B",
+                "completed": true
+            }
+        ]
+    }
+]
