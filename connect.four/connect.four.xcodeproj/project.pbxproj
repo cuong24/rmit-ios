@@ -29,6 +29,12 @@
 		1CC1364328B9F42B00727223 /* CurrentGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC1364228B9F42B00727223 /* CurrentGame.swift */; };
 		1CC1364728B9F49200727223 /* CurrentGameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC1364628B9F49200727223 /* CurrentGameData.swift */; };
 		1CC1364928B9F54A00727223 /* currentGame.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CC1364828B9F54A00727223 /* currentGame.json */; };
+		1CC1364B28BA01D300727223 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC1364A28BA01D300727223 /* PlaySound.swift */; };
+		1CC1365028BA068500727223 /* mixkit-small-group-cheer-and-applause-518.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CC1364C28BA068500727223 /* mixkit-small-group-cheer-and-applause-518.mp3 */; };
+		1CC1365128BA068500727223 /* At My Worst - Pink Sweat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CC1364D28BA068500727223 /* At My Worst - Pink Sweat.mp3 */; };
+		1CC1365228BA068500727223 /* mixkit-heavy-sliding-door-1523.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CC1364E28BA068500727223 /* mixkit-heavy-sliding-door-1523.mp3 */; };
+		1CC1365528BA081800727223 /* Wavin' Flag .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CC1365428BA081800727223 /* Wavin' Flag .mp3 */; };
+		1CC1365728BA0B5900727223 /* mixkit-lost-kid-sobbing-474.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CC1365628BA0B5900727223 /* mixkit-lost-kid-sobbing-474.mp3 */; };
 		1CCCDA4528B71DFD00295296 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCCDA4428B71DFD00295296 /* MenuView.swift */; };
 		1CCCDA4728B86F9700295296 /* LeaderBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCCDA4628B86F9700295296 /* LeaderBoardView.swift */; };
 		1CCCDA4928B86FA900295296 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCCDA4828B86FA900295296 /* TutorialView.swift */; };
@@ -79,6 +85,12 @@
 		1CC1364228B9F42B00727223 /* CurrentGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentGame.swift; sourceTree = "<group>"; };
 		1CC1364628B9F49200727223 /* CurrentGameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentGameData.swift; sourceTree = "<group>"; };
 		1CC1364828B9F54A00727223 /* currentGame.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = currentGame.json; sourceTree = "<group>"; };
+		1CC1364A28BA01D300727223 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		1CC1364C28BA068500727223 /* mixkit-small-group-cheer-and-applause-518.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mixkit-small-group-cheer-and-applause-518.mp3"; sourceTree = "<group>"; };
+		1CC1364D28BA068500727223 /* At My Worst - Pink Sweat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "At My Worst - Pink Sweat.mp3"; sourceTree = "<group>"; };
+		1CC1364E28BA068500727223 /* mixkit-heavy-sliding-door-1523.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mixkit-heavy-sliding-door-1523.mp3"; sourceTree = "<group>"; };
+		1CC1365428BA081800727223 /* Wavin' Flag .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wavin' Flag .mp3"; sourceTree = "<group>"; };
+		1CC1365628BA0B5900727223 /* mixkit-lost-kid-sobbing-474.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mixkit-lost-kid-sobbing-474.mp3"; sourceTree = "<group>"; };
 		1CCCDA4428B71DFD00295296 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		1CCCDA4628B86F9700295296 /* LeaderBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardView.swift; sourceTree = "<group>"; };
 		1CCCDA4828B86FA900295296 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
@@ -195,6 +207,11 @@
 		1C702D1428B8A0D7008908CB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1CC1364D28BA068500727223 /* At My Worst - Pink Sweat.mp3 */,
+				1CC1365428BA081800727223 /* Wavin' Flag .mp3 */,
+				1CC1365628BA0B5900727223 /* mixkit-lost-kid-sobbing-474.mp3 */,
+				1CC1364E28BA068500727223 /* mixkit-heavy-sliding-door-1523.mp3 */,
+				1CC1364C28BA068500727223 /* mixkit-small-group-cheer-and-applause-518.mp3 */,
 				1C702D1528B8A112008908CB /* leaderBoard.json */,
 				1C702D1928B8AFC1008908CB /* currentUser.json */,
 				1CC1364828B9F54A00727223 /* currentGame.json */,
@@ -219,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				1C79731E28B1E72D00428960 /* AI.swift */,
+				1CC1364A28BA01D300727223 /* PlaySound.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -341,8 +359,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC1365228BA068500727223 /* mixkit-heavy-sliding-door-1523.mp3 in Resources */,
 				1C702D1628B8A1B4008908CB /* leaderBoard.json in Resources */,
+				1CC1365128BA068500727223 /* At My Worst - Pink Sweat.mp3 in Resources */,
+				1CC1365528BA081800727223 /* Wavin' Flag .mp3 in Resources */,
 				1C43CB0328A73EE200E8E925 /* Preview Assets.xcassets in Resources */,
+				1CC1365028BA068500727223 /* mixkit-small-group-cheer-and-applause-518.mp3 in Resources */,
+				1CC1365728BA0B5900727223 /* mixkit-lost-kid-sobbing-474.mp3 in Resources */,
 				1C702D1A28B8AFC1008908CB /* currentUser.json in Resources */,
 				1CC1364928B9F54A00727223 /* currentGame.json in Resources */,
 				1C43CB0028A73EE200E8E925 /* Assets.xcassets in Resources */,
@@ -375,6 +398,7 @@
 				1C43CAFE28A73EE100E8E925 /* ContentView.swift in Sources */,
 				1CD4F4F528ACEF6900EFFF64 /* Hole.swift in Sources */,
 				1CD4F4F728ACEFD100EFFF64 /* Turn.swift in Sources */,
+				1CC1364B28BA01D300727223 /* PlaySound.swift in Sources */,
 				1C43CAFC28A73EE100E8E925 /* connect_fourApp.swift in Sources */,
 				1C702D1028B89D0B008908CB /* LeaderBoardData.swift in Sources */,
 				1CCCDA4728B86F9700295296 /* LeaderBoardView.swift in Sources */,

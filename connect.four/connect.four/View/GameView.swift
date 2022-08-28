@@ -1,9 +1,14 @@
-//
-//  GameView.swift
-//  connect.four
-//
-//  Created by Cuong Nguyen Quoc on 18/08/2022.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2022B
+  Assessment: Assignment 2
+  Author: Nguyen Quoc Cuong
+  ID: 3748840
+  Created  date: 25/08/2022
+  Last modified: 28/08/2022
+  Acknowledgement:
+*/
 
 import SwiftUI
 let TOTAL_NUMBER_OF_PIECES = 42
@@ -174,6 +179,9 @@ struct GameView: View {
             .padding()
             
         }
+        .onAppear{
+            stopBackgoundMusic()
+        }
     }
     
     func playerTurn(index: Int) {
@@ -195,6 +203,7 @@ struct GameView: View {
     }
     
     func animation(col: Int, row: Int, currentTurn: Turn) {
+        playSound(sound: "mixkit-heavy-sliding-door-1523", type: "mp3")
         var idx = col % 7
         for i in 0...row {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.12*Double(i)) {
@@ -239,9 +248,11 @@ struct GameView: View {
                     connectIdx.append(7*row+col+21)
                     if(currentGameData.currentGame.holes[7*row+col] == .user) {
                         turn = .userWin
+                        playSound(sound: "mixkit-small-group-cheer-and-applause-518", type: "mp3")
                         currentUserData.winGame()
                     } else {
                         turn = .aiWin
+                        playSound(sound: "mixkit-lost-kid-sobbing-474", type: "mp3")
                         checkHighScore()
                     }
                     return
@@ -261,9 +272,11 @@ struct GameView: View {
                     connectIdx.append(7*row+col+3)
                     if(currentGameData.currentGame.holes[7*row+col] == .user) {
                         turn = .userWin
+                        playSound(sound: "mixkit-small-group-cheer-and-applause-518", type: "mp3")
                         currentUserData.winGame()
                     } else {
                         turn = .aiWin
+                        playSound(sound: "mixkit-lost-kid-sobbing-474", type: "mp3")
                         checkHighScore()
                     }
                     return
@@ -286,6 +299,7 @@ struct GameView: View {
                         currentUserData.winGame()
                     } else {
                         turn = .aiWin
+                        playSound(sound: "mixkit-lost-kid-sobbing-474", type: "mp3")
                         checkHighScore()
                     }
                     return
@@ -305,9 +319,11 @@ struct GameView: View {
                     connectIdx.append(7*row+col+18)
                     if(currentGameData.currentGame.holes[7*row+col] == .user) {
                         turn = .userWin
+                        playSound(sound: "mixkit-small-group-cheer-and-applause-518", type: "mp3")
                         currentUserData.winGame()
                     } else {
                         turn = .aiWin
+                        playSound(sound: "mixkit-lost-kid-sobbing-474", type: "mp3")
                         checkHighScore()
                     }
                     return
